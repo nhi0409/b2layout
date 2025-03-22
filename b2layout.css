@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Thanh điều hướng trên cùng */
+.topnav {
+    background-color: #f8a8a8;
+    padding: 10px 0;
+    text-align: left;
+
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+}
+
+.topnav ul li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Bố cục chính */
+.container {
+    display: flex;
+}
+
+/* Sidebar bên trái */
+.sidebar {
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar ul li a.active {
+    background-color: #4C85AF;
+    color: white;
+}
+
+/* Nội dung chính */
+.content {
+    width: 80%;
+    padding: 20px;
+}
+
+.title-section {
+    background-color: #4C85AF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Footer */
+footer {
+    background-color: #ADD8E6;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+}
